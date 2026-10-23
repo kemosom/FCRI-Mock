@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: fcri-twin-screenshots
+  group: fcri-twin-screenshots-fast
   cancel-in-progress: true
 
 jobs:
