@@ -186,8 +186,8 @@
   .project-banner h1{font-size:clamp(40px,8vw,62px);margin:18px 0 20px}
   .project-banner p{font-size:13px;line-height:1.65}
   .project-content{grid-template-columns:1fr;padding:50px 6% 65px;gap:36px}
-  .project-side{grid-row:1}
-  .project-main{grid-row:2}
+  .project-main{grid-row:1}
+  .project-side{grid-row:2}
   .project-main p{line-height:1.75}
   .project-main h2{font-size:36px}
   .project-main h3{font-size:23px;margin:33px 0 10px}
