@@ -33,10 +33,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          # Reset the index to the latest branch without discarding captured files.
+          # This avoids binary add/add rebase conflicts when another run published images.
+          git reset --mixed origin/main
           git add assets/digital-twin-desktop.jpg assets/digital-twin-mobile.jpg
           if ! git diff --cached --quiet; then
             git commit -m "Refresh screenshots from live Digital Twin [skip ci]"
-            git fetch origin main
-            git rebase origin/main
             git push origin HEAD:main
           fi
