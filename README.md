@@ -59,3 +59,17 @@ The research website is **separate** from the Sunway City Digital Twin's applica
 - Verify the final live domain and institutional accessibility/brand requirements before public release.
 
 The official FCRI page remains the source of institutional facts until Institute review.
+
+## FCRI logo and Sunway City Digital Twin feature (October 2026 update)
+
+- Header and footer now use the FCRI PNG artwork and university crests transferred from the existing Digital Twin repository. Partner names are rendered in text for clarity. The exact supplied composite image can replace this file if the Institute provides its approved web-ready version.
+- The official FCRI favicon is included.
+- The Digital Twin research page now explains the research objective, sensing infrastructure, data pipeline, available visualization layers and cross-pillar relevance.
+- The research card and project page include an **illustrative SVG city visualization**, clearly described as concept art rather than a screenshot or actual sensor map.
+- A prominent external website link opens [the live Sunway City Digital Twin](https://fcri.vercel.app) in a new tab.
+- Ambient sensor values, data-source availability and traffic observations may vary; no unverified pollutant concentration, award, funding or publication claims are included.
+- The 3D Digital Twin application's source and functionalities were **not modified**. Only this separate website mockup was changed.
+
+### Publishing note
+
+Please verify the `https://fcri.vercel.app` deployment, approved logo version, final sensor terminology, funding agency and publication links with the project team before making the research page official.

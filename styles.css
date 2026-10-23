@@ -93,3 +93,56 @@
  .lens-heading{font-size:8px}
 }
 @media(prefers-reduced-motion:reduce){.circuit-dot{animation:none}}
+
+/* FCRI institutional identity and Digital Twin research feature */
+.brand-with-artwork{display:inline-flex;gap:10px;align-items:center;min-width:0}
+.brand-artwork-frame{display:block;position:relative;flex:none;width:185px;height:62px;overflow:hidden;background:#ffffff;border-radius:4px;box-shadow:0 1px 8px #0000001a}
+.brand-artwork{position:absolute;display:block;width:238px;max-width:none;height:auto;left:-35px;top:-31px}
+.brand-affiliation{display:block;max-width:120px;color:#b7d4cb;font-size:9px;font-weight:800;line-height:1.6;letter-spacing:.1em;white-space:normal}
+.footer-brand-artwork{display:flex;flex-direction:column;align-items:flex-start;width:fit-content;max-width:100%;gap:9px}
+.footer-brand-artwork img{display:block;width:290px;max-width:100%;height:auto;background:#fff;border-radius:5px;padding:0 8px;object-fit:contain}
+.footer-partners{font-size:10px;letter-spacing:.14em;font-weight:800;color:#e2f3ee;line-height:1.6}
+.footer-partners b{color:#b6e98a;padding:0 8px}
+.dt-card-image,.dt-thumb-image,.dt-hero-image{display:block;height:100%;width:100%;object-fit:cover;position:absolute;inset:0}
+.project-card-visual.teal:has(.dt-card-image){background:#083942}
+.project-card-visual.teal:has(.dt-card-image)::before,.project-card-visual.teal:has(.dt-card-image)::after{display:none}
+.dt-card-image{object-position:35% 45%;transition:transform .4s ease}
+.project-card:hover .dt-card-image{transform:scale(1.035)}
+.project-card-visual.teal .visual-num{z-index:3;background:#082e36de;color:#ddf5e7;padding:7px 9px;letter-spacing:.1em;bottom:10px}
+.research-thumb.teal:has(.dt-thumb-image){background:#083942}
+.dt-thumb-image{object-position:28% center}
+.research-thumb.teal:has(.dt-thumb-image) small{z-index:2;color:#d0e6dd;background:#093e49bf;padding:3px 5px;border-radius:2px}
+.project-banner-visual.teal:has(.dt-hero-image){min-height:465px;background:#052a33}
+.project-banner-visual.teal .dt-hero-image{object-position:35% center}
+.dt-image-disclaimer{position:absolute!important;left:24px;bottom:21px;font:800 10px/1.5 var(--sans)!important;text-transform:uppercase;letter-spacing:.13em;color:#e4fff4!important;padding:8px 12px;background:#04272edb;border:1px solid #b5ebc83b;opacity:1!important}
+.live-twin-button{display:inline-flex;align-items:center;gap:22px;margin-top:30px;background:#c7ed95;color:#073d40;padding:15px 20px;font-size:12px;font-weight:900;transition:background .2s ease,transform .2s ease}
+.live-twin-button:hover{background:#e2ffaa;transform:translateY(-2px)}
+.live-twin-button span{font-size:17px}
+.metadata-live{display:inline-block;font-weight:800;color:#08796f;border-bottom:1px solid #6bbdb0;padding-bottom:5px}
+.metadata-live:hover{color:#042f3a}
+.dt-practice-note{padding:24px 29px;margin:35px 0 4px;background:#eaf5ef;border-left:4px solid #368a7b}
+.dt-practice-note strong{color:#095c58;font:600 19px/1.4 var(--serif)}
+.dt-practice-note p{font-size:13px!important;line-height:1.7!important;margin:8px 0 0!important}
+.dt-system{max-width:1400px;margin:auto;padding:15px 6% 105px}
+.dt-system-head{max-width:700px}
+.dt-system-head h2{font:500 clamp(35px,4.4vw,57px)/1.15 var(--serif);letter-spacing:-.04em;color:#0a3d43;margin:13px 0 18px}
+.dt-system-head>p{color:#5c7776;line-height:1.8;font-size:15px}
+.dt-system-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:37px 0 35px}
+.dt-system-steps>div{background:#edf5f2;padding:24px 21px 27px;border-top:3px solid #24736f;min-height:208px}
+.dt-system-steps>div:nth-child(2){border-color:#78ada0}.dt-system-steps>div:nth-child(3){border-color:#84c5a4}.dt-system-steps>div:nth-child(4){border-color:#b2c88b}
+.dt-system-steps span{font-size:10px;font-weight:800;color:#52887c;letter-spacing:.1em}
+.dt-system-steps strong{display:block;margin-top:16px;color:#123f44;font:600 21px/1.2 var(--serif)}
+.dt-system-steps p{font-size:12px;line-height:1.7;color:#58736e;margin:12px 0 0}
+.dt-feature-figure{margin:0;background:#062f3a;overflow:hidden}
+.dt-feature-figure img{width:100%;height:auto;display:block}
+.dt-feature-figure figcaption{font-size:11px;color:#e2f2e7;line-height:1.6;padding:13px 22px;background:#08313c}
+.dt-outro{display:flex;align-items:center;justify-content:space-between;gap:40px;padding:46px 0 20px;border-bottom:1px solid #bfd7d0}
+.dt-outro h3{font:500 31px var(--serif);color:#113e41;margin:11px 0}
+.dt-outro p{font-size:13px;max-width:600px;line-height:1.7;color:#65817b}
+.dt-outro>a{flex:none;display:inline-block;background:#0a4e50;color:#f7fffb;font-weight:800;padding:18px 24px;font-size:12px}
+.dt-outro>a:hover{background:#087a6f}
+@media(max-width:1300px){.brand-affiliation{display:none}.brand-artwork-frame{width:163px;height:60px}.brand-artwork{width:220px;left:-33px;top:-29px}.header-shell{gap:23px}}
+@media(max-width:960px){.brand-artwork-frame{width:172px;height:60px}.brand-artwork{width:228px;left:-34px;top:-28px}.dt-system-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.dt-system-steps>div{min-height:174px}}
+@media(max-width:720px){.brand-artwork-frame{width:153px;height:56px}.brand-artwork{width:209px;left:-31px;top:-26px}.dt-system{padding:10px 5% 65px}.dt-outro{align-items:flex-start;flex-direction:column;gap:18px}.project-banner-visual.teal:has(.dt-hero-image){min-height:270px}.dt-image-disclaimer{left:12px;bottom:12px;font-size:8px!important}.dt-practice-note{padding:18px 20px}.footer-brand-artwork img{width:230px}}
+@media(max-width:480px){.brand-artwork-frame{width:137px;height:55px}.brand-artwork{width:191px;left:-29px;top:-25px}.dt-system-steps{grid-template-columns:1fr}.dt-system-steps>div{min-height:unset}.dt-system-steps strong{margin-top:8px}.dt-outro>a{width:100%;text-align:center}}
+@media(prefers-reduced-motion:reduce){.dt-card-image,.live-twin-button{transition:none}}
