@@ -84,3 +84,11 @@ Please verify the `https://fcri.vercel.app` deployment, approved logo version, f
 - An additional linked figure is explicitly attributed to the separate 2026 geometric 6G Digital Twin study, not represented as a current website screenshot.
 
 **Publication review:** Confirm the intended project lead and work-package leadership for the non-Digital-Twin projects, external-site permissions, and publication metadata before the mock becomes the official FCRI website.
+
+## Header artwork update (23 October 2026)
+
+- Replaced the homepage hero with the user's supplied genuine Sunway City photograph, stored verbatim as `assets/sunway-city-hero.jpg`.
+- Replaced the white-box header logo with a transparent high-contrast FCRI emblem extracted from the provided institute logo, paired with responsive typographic wordmark.
+- Footer uses the same integrated FCRI identity and partner names without a white-background logo plaque.
+- Other website functions, digital twin screenshots, pillar selection, and research pages are preserved.
+- The provided hero photograph is 516 × 387 pixels. An approved larger-resolution original would improve clarity on large desktop displays.
