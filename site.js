@@ -161,9 +161,9 @@ function digitalTwinDetails(){return `
     <p class="dt-gallery-caption">Live interface at fcri.vercel.app. Embedded access depends on the application's framing policy; use the full-site link if the preview is unavailable. Environmental and traffic data are provided by the connected sources when available.</p>
   </div>
   <div class="dt-gallery-secondary">
-    <div class="dt-media-heading"><span>RESEARCH VISUALIZATION</span><strong>Sunway City geometric model</strong></div>
-    <a class="dt-research-image" href="https://arxiv.org/html/2601.07132" target="_blank" rel="noopener noreferrer"><img src="https://arxiv.org/html/2601.07132/SunwayDT.png" loading="lazy" alt="Geometric Sunway City Digital Twin shown in the related 6G radio-propagation research preprint" onerror="this.style.display='none';this.parentElement.classList.add('image-unavailable')" /><span>View related research figure ↗</span></a>
-    <p class="dt-gallery-caption">Source: Ibrahim and Nordin (2026), Fig. 1. This 3D geometric model is used in a separate wireless propagation study, not a screenshot of the online monitoring application.</p>
+    <div class="dt-media-heading"><span>ACTUAL MOBILE SCREENSHOT</span><strong>Mobile research interface</strong></div>
+    <a class="dt-research-image dt-mobile-capture" href="https://fcri.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="assets/digital-twin-mobile.jpg" loading="lazy" alt="Actual mobile screenshot of the Sunway City Digital Twin showing its monitoring and 3D map controls" /><span>Explore the live interface ↗</span></a>
+    <p class="dt-gallery-caption">Screenshot captured from the live FCRI Digital Twin website on 23 October 2026. Data values and interface appearance may change as the platform is updated.</p>
   </div>
 </div>
   <div class="dt-outro"><div><span class="eyebrow">VIEW THE PLATFORM</span><h3>Explore Sunway City online.</h3><p>Open the research demonstrator to inspect the available map layers, environmental observations and traffic features.</p></div><a href="https://fcri.vercel.app" target="_blank" rel="noopener noreferrer">Open Live Digital Twin ↗</a></div>

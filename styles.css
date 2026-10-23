@@ -204,3 +204,11 @@
   .project-banner h1{font-size:42px}
   .dt-hero-real .dt-image-disclaimer{font-size:9px!important;left:15px;bottom:14px}
 }
+
+/* Authentic desktop-and-mobile Digital Twin gallery */
+.dt-mobile-capture{aspect-ratio:390/844;min-height:0;max-width:345px;margin-inline:auto;background:#072f3b;border:1px solid #bad3cb}
+.dt-mobile-capture img{object-fit:cover;padding:0;background:#0b303c}
+.dt-gallery-secondary .dt-media-heading{max-width:345px;margin-inline:auto;margin-bottom:15px}
+.dt-gallery-secondary .dt-gallery-caption{max-width:345px;margin-inline:auto}
+@media(max-width:1090px){.dt-mobile-capture{max-width:330px}}
+@media(max-width:600px){.dt-mobile-capture{max-width:290px}}
