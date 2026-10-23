@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: fcri-twin-screenshots
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   capture:
@@ -27,7 +27,6 @@ jobs:
       - name: Install screenshot browser
         run: |
           npm install --no-save --no-package-lock playwright@1.56.1
-          npx playwright install --with-deps chromium
       - name: Capture the public research site
         run: node scripts/capture-digital-twin.mjs
       - name: Commit and publish real captures

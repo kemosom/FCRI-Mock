@@ -2,7 +2,7 @@ import { chromium } from 'playwright';
 import { mkdir, stat } from 'node:fs/promises';
 
 const URL = 'https://fcri.vercel.app/';
-const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
+const browser = await chromium.launch({ channel: 'chrome', headless: true, args: ['--no-sandbox'] });
 const results = [
   { label: 'desktop', viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1, output: 'assets/digital-twin-desktop.jpg' },
   { label: 'mobile', viewport: { width: 390, height: 844 }, deviceScaleFactor: 1, output: 'assets/digital-twin-mobile.jpg' },
