@@ -73,3 +73,14 @@ The official FCRI page remains the source of institutional facts until Institute
 ### Publishing note
 
 Please verify the `https://fcri.vercel.app` deployment, approved logo version, final sensor terminology, funding agency and publication links with the project team before making the research page official.
+
+## Research project profiles and authentic site imagery
+
+- All seven project profiles now use concise research-specific project summaries, methodologies, and outputs. Unverified claims are excluded.
+- A **Project Lead** field appears before the **Funding Agency** field on every project page. A project without verified funding omits the funding row; unverified leads are explicitly marked for FCRI confirmation.
+- The Sunway City Digital Twin page distinguishes the live IoT/geospatial web demonstrator from the related 6G geometric/ray-tracing research preprint. The latter is linked as related research rather than evidence of validation for the live system.
+- Genuine site images are captured from the actual public deployment by the GitHub Actions workflow `.github/workflows/capture-digital-twin.yml` using Playwright. Two images are stored locally: `assets/digital-twin-desktop.jpg` and `assets/digital-twin-mobile.jpg`. A fresh checkout initially requires a successful workflow run to generate them.
+- The project page also embeds `https://fcri.vercel.app` for live viewing (when cross-origin framing is permitted). An external link remains available when framing is blocked.
+- An additional linked figure is explicitly attributed to the separate 2026 geometric 6G Digital Twin study, not represented as a current website screenshot.
+
+**Publication review:** Confirm the intended project lead and work-package leadership for the non-Digital-Twin projects, external-site permissions, and publication metadata before the mock becomes the official FCRI website.
